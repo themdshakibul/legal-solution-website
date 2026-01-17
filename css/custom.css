@@ -15,6 +15,7 @@
   --Dark-03: rgba(112, 112, 112, 1);
   --Dark-06: rgba(231, 231, 231, 1);
   --color: rgba(255, 255, 255, 1);
+  --card-border: rgba(231, 231, 231, 1);
 }
 
 /* hero image */
@@ -26,7 +27,27 @@
   border-radius: 10px;
 }
 
+.header-text {
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 42px;
+  color: rgba(65, 64, 64, 1);
+}
+
+.peragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(112, 112, 112, 1);
+}
+
 /* margin bottom */
-#hero {
+#hero,
+#card {
   margin-bottom: 120px;
+}
+
+header {
+  margin-bottom: 60px;
 }
