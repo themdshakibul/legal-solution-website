@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- tailwindcss link -->
@@ -54,7 +60,7 @@
       <section id="hero" class="hero-img">
         <!-- hero text -->
         <div
-          class="py-28 text-center w-[400px] sm:w-[500px] md:w-[600px] lg:w-[668px] mx-auto flex flex-col gap-7"
+          class="py-28 text-center w-[90%] sm:w-[500px] md:w-[600px] lg:w-[668px] mx-auto flex flex-col gap-7"
         >
           <div>
             <h1
@@ -73,7 +79,7 @@
             class="flex flex-col sm:flex-col md:flex-row justify-center items-center gap-5"
           >
             <input
-              class="w-[300px] ms:w-[250px] md:w-[500px] lg:w-[500px] -bg-primary p-5 rounded-md focus:outline-cyan-500"
+              class="max-w-[300px] ms:w-[250px] md:w-[500px] lg:w-[500px] -bg-primary p-5 rounded-md focus:outline-cyan-500"
               type="text"
               placeholder="Search your services"
             />
@@ -103,13 +109,13 @@
             </p>
           </header>
           <!-- card -->
-          <div class="">
+          <div>
             <div
               class="grid grid-cols-1 sm:grid-cols-2 sm:justify-center sm:place-items-center lg:grid-cols-3 justify-center gap-0.5"
             >
               <!-- card 1  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img
                   class="w-[62px] mx-auto"
@@ -126,7 +132,7 @@
               </div>
               <!-- card 2  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img
                   class="w-[62px] mx-auto"
@@ -143,7 +149,7 @@
               </div>
               <!-- card 3  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img class="w-[62px] mx-auto" src="./images/child.png" alt="" />
                 <h3 class="header-text">Child Support</h3>
@@ -156,7 +162,7 @@
               </div>
               <!-- card 4  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img
                   class="w-[62px] mx-auto"
@@ -173,7 +179,7 @@
               </div>
               <!-- card 5  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img
                   class="w-[62px] mx-auto"
@@ -190,7 +196,7 @@
               </div>
               <!-- card 6  -->
               <div
-                class="w-full sm:w-[300px] md:w-[350] lg:w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
+                class="w-full h-[500px] sm:max-w-[300px] md:max-w-[350] lg:max-w-[405px] flex flex-col gap-6 justify-center text-center border border-(--card-border) p-5 xl:p-[72px]"
               >
                 <img class="w-[62px] mx-auto" src="./images/tax.png" alt="" />
                 <h3 class="header-text">Tax Law</h3>
@@ -227,6 +233,7 @@
               </p>
             </header>
           </div>
+
           <!-- client card -->
           <div class="client-img">
             <div class="py-24 flex flex-col justify-center items-center gap-2">
@@ -238,7 +245,7 @@
               </h3>
               <h5 class="text-(--color) text-xl pb-8">UIX Designer</h5>
               <p
-                class="text-(--color) w-[400px] sm:w-[450px] md:w-[550px] lg:w-[700px] xl:w-[900px] text-center pb-8"
+                class="text-(--color) w-[80%] sm:w-[450px] md:w-[550px] lg:w-[700px] xl:w-[900px] text-center pb-8"
               >
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
@@ -253,6 +260,171 @@
       </section>
 
       <!-- Frequently  Questions -->
+      <section id="questions">
+        <!-- header text -->
+        <header class="flex flex-col gap-5 lg:w-[724px] mx-auto text-center">
+          <h1
+            class="font-eb-garamond font-extrabold text-[40px] text-(--Dark-02)"
+          >
+            Frequently Asked Any Questions
+          </h1>
+          <p class="peragraph">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </header>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-7">
+          <!-- Questions -->
+          <div class="mb-7 order-2">
+            <!-- faq 1 -->
+            <div class="p-8 mb-7 bg-(--Dark-07)">
+              <h2
+                class="text-2xl text-(--Dark-02) font-eb-garamond font-extrabold flex justify-between items-center mb-4"
+              >
+                1. Are application fee waivers available?
+                <i class="ri-subtract-fill"></i>
+              </h2>
+              <p class="peragraph">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, .
+              </p>
+            </div>
+            <!-- faq 2 -->
+            <div class="p-8 mb-7 bg-(--Dark-07)">
+              <h2
+                class="text-2xl text-(--Dark-02) font-eb-garamond font-extrabold flex justify-between items-center"
+              >
+                2. Are application fee waivers available?
+                <i class="ri-add-large-line"></i>
+              </h2>
+            </div>
+            <!-- faq 3 -->
+            <div class="p-8 mb-7 bg-(--Dark-07)">
+              <h2
+                class="text-2xl text-(--Dark-02) font-eb-garamond font-extrabold flex justify-between items-center"
+              >
+                3. Are application fee waivers available?
+                <i class="ri-add-large-line"></i>
+              </h2>
+            </div>
+            <!-- faq 4 -->
+            <div class="p-8 mb-7 bg-(--Dark-07)">
+              <h2
+                class="text-2xl text-(--Dark-02) font-eb-garamond font-extrabold flex justify-between items-center"
+              >
+                4. Are application fee waivers available?
+                <i class="ri-add-large-line"></i>
+              </h2>
+            </div>
+          </div>
+          <!-- Questions Images -->
+          <div class="order-1 md:order-2 content-center">
+            <img src="./images/faq.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us section -->
+      <section id="contact">
+        <!-- header text -->
+        <header class="flex flex-col gap-5 lg:w-[724px] mx-auto text-center">
+          <h1
+            class="font-eb-garamond font-extrabold text-[40px] text-(--Dark-02)"
+          >
+            Contact With Us
+          </h1>
+          <p class="peragraph">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </header>
+        <!-- conact card -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-9">
+          <div
+            class="grid grid-cols-2 justify-center place-items-center order-2 md:order-1"
+          >
+            <!-- card 1 -->
+            <div
+              class="max-w-[285px] flex flex-col gap-4 items-center p-[61px] bg-(--Dark-07)"
+            >
+              <img class="w-10" src="./images/location.png" alt="" />
+              <h3
+                class="font-eb-garamond text-2xl text-(--Dark-02) font-extrabold"
+              >
+                Address
+              </h3>
+              <p class="peragraph">A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <!-- card 2 -->
+            <div
+              class="max-w-[285px] flex flex-col gap-4 items-center p-[61px] bg-(--Dark-07)"
+            >
+              <img class="w-10" src="./images/call.png" alt="" />
+              <h3
+                class="font-eb-garamond text-2xl text-(--Dark-02) font-extrabold"
+              >
+                Call Us
+              </h3>
+              <p class="peragraph">+88 01750 00 00 00 +88 01750 00 00 00</p>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="max-w-[285px] flex flex-col gap-4 items-center p-[61px] bg-(--Dark-07)"
+            >
+              <img class="w-10" src="./images/email.png" alt="" />
+              <h3
+                class="font-eb-garamond text-2xl text-(--Dark-02) font-extrabold"
+              >
+                Email Us
+              </h3>
+              <p class="peragraph">info@gmail.com info@gmail.com</p>
+            </div>
+            <!-- card 4 -->
+            <div
+              class="max-w-[285px] flex flex-col gap-4 items-center p-[61px] bg-(--Dark-07)"
+            >
+              <img class="w-10" src="./images/time.png" alt="" />
+              <h3
+                class="font-eb-garamond text-2xl text-(--Dark-02) font-extrabold"
+              >
+                Working Hours
+              </h3>
+              <p class="peragraph">Mon-Fri: 9AM to 5PM Sunday: 9AM to 1 PM</p>
+            </div>
+          </div>
+          <!-- contact form -->
+          <div class="order-1 md:order-2">
+            <div class="flex flex-col">
+              <input
+                class="bg-(--Dark-07) p-6 rounded-md mb-7 focus:outline-(--border-color)"
+                type="text"
+                placeholder="Your Name"
+                readonly
+              />
+              <input
+                class="bg-(--Dark-07) p-6 rounded-md mb-7 focus:outline-(--border-color)"
+                type="email"
+                placeholder="Your Email"
+                readonly
+              />
+              <input
+                class="bg-(--Dark-07) p-6 rounded-md mb-7 focus:outline-(--border-color)"
+                type="text"
+                placeholder="Subject"
+              />
+              <textarea
+                rows="6"
+                class="bg-(--Dark-07) p-6 rounded-md mb-7 h-[200px] items-start focus:outline-(--border-color)"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

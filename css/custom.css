@@ -17,6 +17,7 @@
   --Dark-07: rgba(243, 243, 243, 1);
   --color: rgba(255, 255, 255, 1);
   --card-border: rgba(231, 231, 231, 1);
+  --border-color: rgba(182, 140, 90, 1);
 }
 
 /* hero image */
@@ -55,7 +56,9 @@
 /* margin bottom */
 #hero,
 #card,
-#client {
+#client,
+#questions,
+#contact {
   margin-bottom: 120px;
 }
 
