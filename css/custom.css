@@ -14,6 +14,7 @@
   --Dark-02: rgba(65, 64, 64, 1);
   --Dark-03: rgba(112, 112, 112, 1);
   --Dark-06: rgba(231, 231, 231, 1);
+  --Dark-07: rgba(243, 243, 243, 1);
   --color: rgba(255, 255, 255, 1);
   --card-border: rgba(231, 231, 231, 1);
 }
@@ -21,6 +22,15 @@
 /* hero image */
 .hero-img {
   background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* client review imge */
+.client-img {
+  background: url(../images/Rectangle\ 5.png), url(../images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,7 +54,8 @@
 
 /* margin bottom */
 #hero,
-#card {
+#card,
+#client {
   margin-bottom: 120px;
 }
 
