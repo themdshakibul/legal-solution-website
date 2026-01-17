@@ -11,9 +11,22 @@
   background-color: rgba(182, 140, 90, 1);
 }
 :root {
-  --Dark-03: rgba(112, 112, 112, 1);
   --Dark-02: rgba(65, 64, 64, 1);
+  --Dark-03: rgba(112, 112, 112, 1);
+  --Dark-06: rgba(231, 231, 231, 1);
   --color: rgba(255, 255, 255, 1);
 }
 
-/* button */
+/* hero image */
+.hero-img {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* margin bottom */
+#hero {
+  margin-bottom: 120px;
+}

@@ -14,9 +14,11 @@
 
     <title>legal solution website</title>
   </head>
-  <body class="font-poppins">
+  <body
+    class="font-poppins w-[97%] mx-auto sm:w-[95%] md:w-[90%] lg:w-[85%] xl:w-[80%]"
+  >
     <!-- navbar -->
-    <header class="w-[97%] mx-auto sm:w-[95%] md:w-[90%] lg:w-[85%] xl:w-[80%]">
+    <header>
       <nav>
         <section class="flex justify-between items-center py-14">
           <!-- nav imge  -->
@@ -49,8 +51,39 @@
 
     <main>
       <!-- hero section -->
-      <section>
-        
+      <section id="hero" class="hero-img">
+        <!-- hero text -->
+        <div
+          class="py-28 text-center w-[400px] sm:w-[500px] md:w-[600px] lg:w-[668px] mx-auto flex flex-col gap-7"
+        >
+          <div>
+            <h1
+              class="text-(--color) font-eb-garamond font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+            >
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="text-(--Dark-06) mt-7 text-[16px]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+          </div>
+          <!-- hero search -->
+          <div
+            class="flex flex-col sm:flex-col md:flex-row justify-center items-center gap-5"
+          >
+            <input
+              class="w-[300px] ms:w-[250px] md:w-[500px] lg:w-[500px] -bg-primary p-5 rounded-md focus:outline-cyan-500"
+              type="text"
+              placeholder="Search your services"
+            />
+            <input
+              class="btn-primary px-7 py-5 rounded-md text-(--color) font-semibold"
+              type="button"
+              value="Search"
+            />
+          </div>
+        </div>
       </section>
     </main>
   </body>
